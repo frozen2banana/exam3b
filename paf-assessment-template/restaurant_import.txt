@@ -1,0 +1,5 @@
+TODO: Task 1 - Write the mongo import command here
+
+
+mongo.url=${MONGO_URL}
+mongoimport --authenticationDatabase=admin %MONGO_URL% -d foodguide -c restaurant --jsonArray --file "restaurants.json"
